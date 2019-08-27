@@ -1,6 +1,5 @@
 import { RESTDataSource } from "apollo-datasource-rest"
-
-const FIXER_API_ACCESS_KEY = process.env.FIXER_API_ACCESS_KEY
+import { FIXER_API_ACCESS_KEY } from "../config"
 
 class CurrencyAPI extends RESTDataSource {
   constructor() {
