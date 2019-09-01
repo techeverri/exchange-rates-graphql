@@ -11,7 +11,7 @@
   },
   "main": "src/index.js",
   "scripts": {
-    "netlify": "netlify-lambda build src/lambda.js",
+    "netlify": "netlify-lambda build src/lambda",
     "start": "node -r esm src/index.js"
   },
   "dependencies": {
