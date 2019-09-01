@@ -8,6 +8,11 @@
   ],
   "routes": [
     {
+      "src": "/ping",
+      "dest": "/src/index.js",
+      "methods": ["GET"]
+    },
+    {
       "src": "/graphql",
       "dest": "/src/index.js",
       "methods": ["POST"]
