@@ -21,6 +21,10 @@ app.use(cors(corsOptions))
 
 app.use(bodyParser.json())
 
+app.get("/ping", function ping(req, res) {
+  return res.send("pong")
+})
+
 app.post("/login", function loginHandler(req, res) {
   const payload = { userId: uuid() }
   const options = { jwtid: uuid() }
