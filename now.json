@@ -6,6 +6,14 @@
       "use": "@now/node-server"
     }
   ],
+  "build": {
+    "env": {
+      "PORT": "@port",
+      "JWT_SECRET_KEY": "@jwt_secret_key",
+      "FIXER_API_ACCESS_KEY": "@fixer_api_access_key",
+      "CORS_ORIGIN_HEADER": "@cors_origin_header"
+    }
+  },
   "routes": [
     {
       "src": "/ping",
