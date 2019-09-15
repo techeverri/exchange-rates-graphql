@@ -15,7 +15,6 @@ const app = express()
 
 var corsOptions = {
   origin: CORS_ORIGIN_HEADER,
-  methods: ["GET", "POST"],
 }
 
 app.use(cors(corsOptions))
