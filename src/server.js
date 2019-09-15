@@ -13,7 +13,13 @@ import typeDefs from "./schema"
 
 const app = express()
 
-app.use(cors())
+var corsOptions = {
+  origin: CORS_ORIGIN_HEADER,
+}
+
+app.use(cors(corsOptions))
+
+app.options("*", cors(corsOptions))
 
 app.use(bodyParser.json())
 
