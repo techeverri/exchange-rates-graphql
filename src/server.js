@@ -15,9 +15,12 @@ const app = express()
 
 var corsOptions = {
   origin: CORS_ORIGIN_HEADER,
+  methods: ["GET", "POST"],
 }
 
 app.use(cors(corsOptions))
+
+app.options("*", cors(corsOptions))
 
 app.use(bodyParser.json())
 
