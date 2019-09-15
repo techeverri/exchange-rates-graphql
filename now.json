@@ -6,13 +6,11 @@
       "use": "@now/node-server"
     }
   ],
-  "build": {
-    "env": {
-      "PORT": "@exchange_rates_graphql_port",
-      "JWT_SECRET_KEY": "@exchange_rates_graphql_jwt_secret_key",
-      "FIXER_API_ACCESS_KEY": "@exchange_rates_graphql_fixer_api_access_key",
-      "CORS_ORIGIN_HEADER": "@exchange_rates_graphql_cors_origin_header"
-    }
+  "env": {
+    "PORT": "@exchange_rates_graphql_port",
+    "JWT_SECRET_KEY": "@exchange_rates_graphql_jwt_secret_key",
+    "FIXER_API_ACCESS_KEY": "@exchange_rates_graphql_fixer_api_access_key",
+    "CORS_ORIGIN_HEADER": "@exchange_rates_graphql_cors_origin_header"
   },
   "routes": [
     {
