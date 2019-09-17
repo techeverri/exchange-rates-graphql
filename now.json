@@ -21,7 +21,7 @@
     {
       "src": "/graphql",
       "dest": "/src/index.js",
-      "methods": ["POST", "OPTIONS"]
+      "methods": ["GET", "OPTIONS", "POST"]
     },
     {
       "src": "/login",
