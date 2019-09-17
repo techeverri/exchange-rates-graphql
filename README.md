@@ -8,7 +8,7 @@ https://exchange-rates-graphql.techeverri.now.sh/
 
 https://exchange-rates-graphql.techeverri.now.sh/graphql
 
-### Query
+#### Query
 
 ```graphql
 query CountryQuery($name: String!, $base: String!) {
@@ -26,7 +26,7 @@ query CountryQuery($name: String!, $base: String!) {
 }
 ```
 
-### Query Variables
+#### Query Variables
 
 ```json
 {
@@ -35,7 +35,7 @@ query CountryQuery($name: String!, $base: String!) {
 }
 ```
 
-### HTTP Headers
+#### HTTP Headers
 
 ```json
 {
