@@ -45,7 +45,7 @@ query CountryQuery($name: String!, $base: String!) {
 
 ## Development
 
-TO be able to run the app you need to provide the following environment variables
+To run the app you need to provide the following environment variables
 
 ```
 PORT=8080
