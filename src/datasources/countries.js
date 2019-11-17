@@ -7,10 +7,14 @@ class CountriesAPI extends RESTDataSource {
   }
 
   countryReducer(country) {
+    const currencies = country.currencies.filter(
+      currency => currency.code && currency.name && currency.symbol
+    )
+
     return {
       name: country.name,
       population: country.population,
-      currencies: country.currencies,
+      currencies,
       flag: country.flag,
     }
   }
