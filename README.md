@@ -4,6 +4,10 @@
 
 https://exchange-rates-graphql.techeverri.now.sh/
 
+## Trello
+
+https://trello.com/b/SrNiVbtL/exchange-rates
+
 ### GraphQL Playground
 
 https://exchange-rates-graphql.techeverri.now.sh/graphql
